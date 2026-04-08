@@ -1,0 +1,12 @@
+RELATORIO
+{'var_smoothing': 1e-09}
+
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99        48
+           1       0.81      0.76      0.78        38
+           2       0.80      0.85      0.82        41
+
+    accuracy                           0.87       127
+   macro avg       0.87      0.87      0.87       127
+weighted avg       0.88      0.87      0.87       127

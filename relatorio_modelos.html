@@ -1,0 +1,180 @@
+
+<html>
+<head>
+<title>Relatório</title>
+</head>
+
+<body>
+
+<h1>Resultados</h1>
+
+<div class="container">
+
+<div class="table">
+<h2>Modelos Base</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Modelo</th>
+      <th>Acurácia</th>
+      <th>MAE</th>
+      <th>R2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Random Forest</td>
+      <td>0.850394</td>
+      <td>0.149606</td>
+      <td>0.785587</td>
+    </tr>
+    <tr>
+      <td>SVM</td>
+      <td>0.818898</td>
+      <td>0.181102</td>
+      <td>0.740448</td>
+    </tr>
+    <tr>
+      <td>Decision Tree</td>
+      <td>0.779528</td>
+      <td>0.220472</td>
+      <td>0.684023</td>
+    </tr>
+    <tr>
+      <td>Logistic Regression</td>
+      <td>0.779528</td>
+      <td>0.220472</td>
+      <td>0.684023</td>
+    </tr>
+    <tr>
+      <td>KNN</td>
+      <td>0.763780</td>
+      <td>0.236220</td>
+      <td>0.661454</td>
+    </tr>
+    <tr>
+      <td>Naive Bayes</td>
+      <td>0.748031</td>
+      <td>0.251969</td>
+      <td>0.638884</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="table">
+<h2>Modelos Tunados</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Modelo</th>
+      <th>Acurácia</th>
+      <th>MAE</th>
+      <th>R2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Random Forest Tunado</td>
+      <td>0.874016</td>
+      <td>0.125984</td>
+      <td>0.819442</td>
+    </tr>
+    <tr>
+      <td>SVM Tunado</td>
+      <td>0.842520</td>
+      <td>0.157480</td>
+      <td>0.774302</td>
+    </tr>
+    <tr>
+      <td>Logistic Regression Tunado</td>
+      <td>0.779528</td>
+      <td>0.220472</td>
+      <td>0.684023</td>
+    </tr>
+    <tr>
+      <td>KNN Tunado</td>
+      <td>0.771654</td>
+      <td>0.228346</td>
+      <td>0.672739</td>
+    </tr>
+    <tr>
+      <td>Decision Tree Tunado</td>
+      <td>0.755906</td>
+      <td>0.244094</td>
+      <td>0.650169</td>
+    </tr>
+    <tr>
+      <td>Naive Bayes Tunado</td>
+      <td>0.748031</td>
+      <td>0.251969</td>
+      <td>0.638884</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+</div>
+
+<h2>Classificação (Melhor Modelo)</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>precision</th>
+      <th>recall</th>
+      <th>f1-score</th>
+      <th>support</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1.000000</td>
+      <td>0.979167</td>
+      <td>0.989474</td>
+      <td>48.000000</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0.805556</td>
+      <td>0.763158</td>
+      <td>0.783784</td>
+      <td>38.000000</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>0.795455</td>
+      <td>0.853659</td>
+      <td>0.823529</td>
+      <td>41.000000</td>
+    </tr>
+    <tr>
+      <th>accuracy</th>
+      <td>0.874016</td>
+      <td>0.874016</td>
+      <td>0.874016</td>
+      <td>0.874016</td>
+    </tr>
+    <tr>
+      <th>macro avg</th>
+      <td>0.867003</td>
+      <td>0.865328</td>
+      <td>0.865596</td>
+      <td>127.000000</td>
+    </tr>
+    <tr>
+      <th>weighted avg</th>
+      <td>0.875785</td>
+      <td>0.874016</td>
+      <td>0.874356</td>
+      <td>127.000000</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Melhor Modelo</h2>
+<pre>Random Forest Tunado</pre>
+
+</body>
+</html>
